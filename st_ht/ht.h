@@ -1,5 +1,6 @@
 #pragma once
 // Simple hash table implemented in C.
+// https://github.com/benhoyt/ht
 
 #include <assert.h>
 #include <stdint.h>
