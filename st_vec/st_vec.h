@@ -52,6 +52,9 @@ void st_vec_pop(st_vec *vec) {
 	}
 }
 
+/*
+* crash if try to insert element index greather than size
+*/
 void st_vec_insert(st_vec *vec, const void *input, size_t index) {
 	assert(index <= vec->size + 1 && index >= 0);
 
